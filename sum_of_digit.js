@@ -1,12 +1,10 @@
 let a=[23,45,30,10]
-sum1=0
-// for (i of a){
-//     string=""
-//     s=String(i)
-//     for (j of Int){
-//         Int=Number(j)
-//         string+=j
-
-
-//     }
-// }
+let arr=[];
+for (let i=0;i<a.length;i++){
+    let sum=0;
+    let s=String(a[i])
+    for (let j=0;j<s.length;j++){
+        int=Number(s[j])
+        sum+=int
+    }arr.push(sum)
+}console.log(arr)

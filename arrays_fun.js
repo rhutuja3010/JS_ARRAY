@@ -69,3 +69,21 @@
 // // const fruits=[4,1,8,3,9]
 // fruits.sort();
 // console.log(fruits)
+
+// let a=["rhu","Red","Ram","Veda"]
+// for (i of a){
+//     s=''
+//     // b=a[0].length
+//     // console.log(b)
+//     for (let j in i){
+//         // console.log(b[j])
+//         s+="*"
+//         // break
+//     }
+//     // s+=" "
+//     console.log(s)
+//     s+='\n'
+// }
+
+
+

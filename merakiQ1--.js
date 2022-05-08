@@ -23,7 +23,7 @@
 
 
 // let myFavouriteGames = ["chess", "Ludo", "Badminton", "Basketball", "Carom", "Cricket"];
-// let removedItems = myFavouriteGames.splice(3,1);
+// let removedItems = myFavouriteGames.splice(2,1);
 // console.log(myFavouriteGames);
 
 
@@ -35,7 +35,7 @@
 
 
 // let fruits = ['Apple', 'Banana', 'Orange']
-// let position = fruits.indexOf('Banana')
+// let position = fruits.indexOf('Orange')
 // console.log(position)
 
 
@@ -84,21 +84,6 @@
 
 
 
-// var numbers=[50, 40, 23, 70, 56, 12, 5, 10, 7]
-// var max=0;
-// var second_max=0;
-// for (var i =0;i <numbers.length;i++){
-//     if (second_max   > second_max+max)
-//    }
-//    max=numbers[i];
-//  }
-//  else{
-//      if (second_max     > second_max=numbers[i];
-//    }
-//  }
-// }
- 
-// console.log(second_max);
 
 
 
@@ -109,6 +94,12 @@
 // }
 // console.log(reversedArray);
 
+// var numbers=[50, 40, 23, 70, 56, 12, 5, 10, 7];
+// let arr=[];
+// for (let i=numbers.length-1;i>=0;i--){
+//     arr.push(numbers[i])
+// }console.log(arr)
+
 
 
 // var Name=['m','a','l','a','y','a','l','a','m'];
@@ -118,6 +109,7 @@
 // }
 // let count=0
 // for (let j=0;j<=Name.length-1;j++){
+//     // console.log(new_array[j])
 //     if (new_array[j]===Name[j]){
 //         count++
 //     }
@@ -129,27 +121,39 @@
 // }
 
 
-// var new_array=[];
-// for (var i=Name.length-1; i>=0;i--){
-//    new_array.push(Name[i]);
+// var Name=['m','a','l','a','y','a','l','a','m'];
+// let arr=[];
+// for (let i=Name.length-1;i>=0;i--){
+//     arr.push(Name[i])
 // }
-// // console.log(new_array)
-// var count=0;
-// for (var j=0; j<=Name.length-1;j++){
-//    if (new_array[j]===Name[j]){
-//        count++;
-//    }
-// }
-// if(count===Name.length){
-//    console.log("This is palindrome");
+// // console.log(arr)
+// let count=0;
+// for (let j=0;j<Name.length;j++){
+//     if(Name[j]===arr[j]){
+//         count++
+//     }
+// }if(count===Name.length){
+//     console.log("palindrom")
 // }else{
-//    console.log("This is not a palindrome");
+//     console.log("not")
 // }
+
+
+
+
 
 
 
 // var list1 = [1,2,3,4,5,6]
 // var list2 = [2,3,1,0,6,7]
+// let arr=[];
+// for (i of list1){
+//     if (!list2.includes(i)){
+//         arr.push(i)
+//     }
+// }console.log(arr)
+
+
 // elements=[]
 // for(var i of list1){
 //    if (!list2.includes(i)){
@@ -164,39 +168,39 @@
 //     [91, 71, 98, 65, 76],
 //     [95, 45, 78, 52, 49]
 //     ]
-
 // let sum=0;
-// for (let i of marks){
-//     for (let j of i){
+// for (i of marks){
+//     for (j of i){
 //         sum+=j
 //     }
 // }console.log(sum)
 
 
-
-// var n = [10, 11, 12, 13, 14, 17, 18, 19]
-// let numbers=30
-// l=[]
-// for (let i of n){
-//     for (let j of n){
-//         if (i+j===numbers)
-//         l.push([i,j])
-//     }
-// }console.log(l)
-
-
-// var elements = [23, 14, 56, 12, 19, 9, 15, 25, 31, 42, 43];
-// even=0
-// odd=0
-// for (let i of elements){
-//     if(i%2==0){
-//         even+=1
-//     }else{
-//         odd+=1
+// let sum=0;
+// for (let i of marks){
+//     for (let j of i){
+//         // console.log(i)
+//         sum+=j
 //     }
 // }
-// console.log(even)
-// console.log(odd)
+// console.log(sum)
+
+
+
+// var n = [10, 11, 12, 13, 14, 17, 18, 19]
+// let num=30;
+// let arr=[];
+// for(i of n){
+//     for(j of n){
+//         // console.log(j)
+//     if (i+j===num){
+//         arr.push([i,j])
+//     }
+// }
+// }console.log(arr)
+
+
+
 
 
 // elements = [23, 14, 56, 12, 19, 9, 15, 25, 31, 42, 43]
@@ -270,36 +274,31 @@
 
 // char_list = ["a", "n", "t", "a", "a", "t", "n", "n", "a", "x", "u", "g", "a", "x", "a"]
 // uniques=[]
-// for (let i of char_list){
+// for (i of char_list){
 //     if (!uniques.includes(i)){
 //         uniques.push(i)
 //     }
-// }
-// console.log(uniques)
-// for (let j of uniques){
+// }console.log(uniques)
+// for (j of uniques){
 //     count=0
-//     for (let k of char_list){
-//         if(j===k){
+//     for (k of char_list){
+//         if (j===k){
 //             count++
 //         }
-//     }console.log(j,count," times")
+//     }console.log(j,count,"times")
 // }
-// for(var i of char_list){
-//    if(!uniques.includes(i)){
-//        uniques.push(i)
-//    }
-// }
-// console.log(uniques);
+
+
+
+
+// a=[2,3,4,5,12,3,4]
+// l=[]
+// for(i of a){
+//     if (!l.includes(i)){
+//         l.push(i)
+//     }
+// }console.log(l)
  
-// for(var j of uniques){
-//    count=0
-//    for(var k of char_list){
-//        if (j === k){
-//            count+=1
-//        }
-//    }
-//    console.log(j,count," times");
-// }
 
 
 
@@ -307,19 +306,18 @@
 
 
 
-var number_list = [19, 17, 12, 17, 17, 18, 10, 17, 14, 12, 19, 17, 12, 13, 11]
-uniques=[]
-duplicates=[]
-count=0
-for(var i of number_list){
-  if(!uniques.includes(i)){
-      uniques.push(i)
-      count+=1
-  }
 
-}
-console.log( uniques)
-console.log(count)
+// var number_list = [19, 17, 12, 17, 17, 18, 10, 17, 14, 12, 19, 17, 12, 13, 11]
+// uniques=[]
+// duplicates=[]
+// count=0
+// for(var i of number_list){
+//   if(!uniques.includes(i)){
+//       uniques.push(i)
+//       count+=1 }
+//     }
+// console.log( uniques)
+// console.log(count)
  
 // for(var j of uniques){
 //   count=0
@@ -340,13 +338,12 @@ console.log(count)
 
 
 // var mainStr = "the quick brown fox jumped over the lazy dog. the dog slept over the verandah."
-// var subStr = "over";
- 
 // var c = mainStr.split(" ");
+// // console.log(c)
 // output="";
 // for(var i of c){
 //     if (i!=subStr)
-//    output=output+i+" "
+//    output+=i+" "
 // }
 // console.log(output);
 

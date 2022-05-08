@@ -12,7 +12,26 @@
 // console.log(sum)
 
 
+// a=[1,3,"5","8",9]
+// l=[]
+// for (i of a){
+//     if (typeof i==='string'){
+//         l.push(i)
+//     }
+// }console.log(l)
 
+
+// a=[3,7,1,8,[4,6],9]
+// sum=0
+// for (i of a){
+//     if (Array.isArray(i)){
+//         for (j of i){
+//             sum+=j
+//         }
+//     }else{
+//         sum+=i
+//     }
+// }console.log(sum)
 
 
 

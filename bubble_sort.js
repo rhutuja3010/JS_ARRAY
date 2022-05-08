@@ -23,22 +23,31 @@
 //     }
 // }
 // console.log(a)
-
-
-// a=[34,5,7,2,4,6,7,8]
 a=[8,2,5,1,3,6,0,9,4,7]
-// let sum=0
-for (let i=0;i<a.length;i++){
-    for (let j=0;j<a.length-1;j++){
-        if (a[j]>a[j+1]){
+for(let i=0;i<a.length;i++){
+    for(let j=0;j<a.length;j++){
+        if(a[j]>a[j+1]){
             b=a[j]
             a[j]=a[j+1]
             a[j+1]=b
-
         }
     }
-}
-console.log(a)
+}console.log(a)
+
+
+
+
+// for (let i=0;i<a.length;i++){
+//     for (let j=0;j<a.length-1;j++){
+//         if (a[j]>a[j+1]){
+//             b=a[j]
+//             a[j]=a[j+1]
+//             a[j+1]=b
+
+//         }
+//     }
+// }
+// console.log(a)
 
 
 

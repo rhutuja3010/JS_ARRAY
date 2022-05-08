@@ -10,7 +10,6 @@
 # print(l)
 
 
-
 # i=1
 # l=[]
 # while i<=10:
@@ -269,6 +268,20 @@
 #     sum1+=sum
 # print(sum1)
 
+# a=1234567
+# s=str(a)
+# sum=0
+# for i in s:
+#     INT=int(i)
+#     if INT%2==0:
+#         sum+=INT
+# print(sum)
+
+
+
+
+
+
 
 # a=[230,101,3099,50]
 # i=0
@@ -291,3 +304,83 @@
 
 
 
+# a=[4,5,7,89,2,3,5]
+# print(a[1:2])
+
+
+# print("*")
+# print("*","*")
+# print("*","*","*")
+# print("*","*","*","*")
+# print("*","*","*","*","*")
+
+
+# numbers=[5,4,67,2,9,65,9,60,5]
+# i=0
+# max=0
+# secondmax=0
+# third_max=0
+# while i<len(numbers):
+#     if max<numbers[i]:
+#         max=numbers[i]
+#     if numbers[i]<max and numbers[i]>secondmax:
+#         secondmax=numbers[i]
+#     if numbers[i]<secondmax and numbers[i]>third_max:
+#         third_max=numbers[i] 
+#     i+=1
+# print(max)
+# print(secondmax)
+# print(third_max)
+
+
+# a=[1,2,3,"7","4",9]
+# l1=[]
+# l2=[]
+# for i in a:
+#     # print(i)
+#     if type(i)==int:
+#         l1.append(i)
+#     if type(i)==str:
+#         l2.append(i)
+# print(l1)
+# print(l2)
+
+
+
+# removing duplicated from the list using set() 
+
+# initializing list 
+sam_list = [11, 15, 13, 16, 13, 15, 16, 11] 
+# print ("The list is: " + str(sam_list)) 
+print(list(set(sam_list)))
+# to remove duplicated from list 
+# sam_list = list(set(sam_list)) 
+# print(sam_list)
+
+# printing list after removal 
+# ordering distorted
+# print ("The list after removing duplicates: " + str(sam_list)) 
+
+
+
+
+
+
+
+
+
+
+
+# a=["qwerty"]
+# for i in range(len(a)):
+#     for j in range(len(a[i])):
+#         # print(j)
+#         b=len(str(i))
+#         print(b)
+#         # break
+#         # k=0
+#         # while k<len(b[i]):
+#         #     print("*")
+#         #     k+=1
+#         # k=0
+    
